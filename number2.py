@@ -3,6 +3,6 @@ def gcd(a,b):
         return a
     else:
         return gcd(b,a%b)
-a,b=map(int,raw_input().split())
-GCD=gcd(a,b)
+m,n=map(int,raw_input().split())
+GCD=gcd(m,n)
 print(GCD)
